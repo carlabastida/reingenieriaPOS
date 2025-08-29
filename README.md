@@ -96,6 +96,7 @@ Para acceder al panel de administración de Django y gestionar el contenido de l
     ```
     [http://127.0.0.1:8000/tienda](http://127.0.0.1:8000/tienda)
     ```
+    Al momento de acceder, abrir la pagina del login, deberas registrar un usuario para comenzar, te recomiendo vendor para que puedas visualizar tiendas desde otro usuario customer
 
     Puedes acceder al panel de administración de Django en `http://127.0.0.1:8000/admin`.
 
