@@ -51,7 +51,7 @@ El archivo SQL crea la base de datos, mientras que las migraciones se encargará
     # Ejemplo para MySQL:
     mysql -u tu_usuario -p < base_de_datos.sql
     ```
-2. **Agregar tu usuario y contraseña en setting.py:** Se deben agregar en el archivo settings.py, en USER tu usuario de acceso a mysql y en PASSWORD tu contraseña
+2. **Agregar tu usuario y contraseña en settings.py:** Se deben agregar en el archivo settings.py, en USER tu usuario de acceso a mysql y en PASSWORD tu contraseña
 
     ```bash
     # En el archivo de settings.py busca la siguiente sección
@@ -75,7 +75,7 @@ El archivo SQL crea la base de datos, mientras que las migraciones se encargará
 
 ## Creación de un Superusuario
 
-Para acceder al panel de administración de Django y gestionar el contenido de la tienda, es necesario crear un superusuario.
+Para acceder al panel de administración de Django y gestionar el contenido de la tienda, es necesario crear un superusuario. Ojo: El super usuario no es necesario pero lo puedes crear para ver el administrador de django.
 
 1.  **Ejecutar el comando `createsuperuser`:** Sigue las instrucciones en la terminal para definir un nombre de usuario, correo electrónico y contraseña.
 
